@@ -1,5 +1,11 @@
-body{font-family: 'Poppins', sans-serif;
+
+
+
+body{
+    font-family: 'Arima', cursive;
+    font-family: 'Arima', cursive;
     margin: 0;
+    padding: 0;
 }
 /* first section */
 
@@ -76,6 +82,7 @@ body{font-family: 'Poppins', sans-serif;
     background-color: rgb(237, 227, 227);
     padding: 50px;
     border-radius: 2px;
+    box-shadow: 5px 5px #88888844;
 
 }
 
@@ -98,12 +105,14 @@ body{font-family: 'Poppins', sans-serif;
     text-align: center;}
 
 #donate-btn2{background-color: rgb(210, 84, 70);
+
     color: white;
     text-decoration: none;
     padding: 10px 50px;
     border-top: 100px;
     border-radius: 5px;
     font-weight: 600;
+    box-shadow: 5px 3px #f0808044;
    
    
 }
@@ -141,6 +150,7 @@ font-size: 50px;
     padding-left: 2%;
     padding-right: 3%;
     border-radius: 8px;
+    box-shadow: 5px 10px #88888844;
 
 }
 
@@ -152,7 +162,8 @@ font-size: 50px;
     padding-bottom: 4%;
     padding-left: 2%;
     padding-right: 3%;
-    border-radius: 8px;}
+    border-radius: 8px;
+    box-shadow: 5px 10px #88888844;}
 
 #plan3 {
     background-color: rgba(63, 42, 165, 0.222);
@@ -163,7 +174,71 @@ font-size: 50px;
     padding-left: 2%;
     padding-right: 3%;
     border-radius: 8px;
+    box-shadow: 5px 10px #8b888844;
     }
+
+    /* .subscribebox{} */
+    
+.updates{text-align: center;
+    margin: 2% 10%;
+
+
+}
+
+
 
     
 
+#input{
+    padding-left: 50px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.163);
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: rgb(197, 181, 181);
+    border-radius: 5px;
+}
+    
+
+
+.bnt{
+    margin-left:  25%;
+    margin-right: 25%;
+    margin-bottom: 3%;
+    border-bottom: 5%;
+    padding-left: 15%;
+    border-color: black;
+    background: rgba(248, 226, 226, 0.552);
+
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-radius: 10px;
+   
+   
+   
+}
+.sub-btn{
+    padding: 10px 9px;
+    margin-left: -4px;
+    border-radius: 5px;
+    background-color: rgba(43, 43, 212, 0.667);
+    color: azure;
+
+}
+span{
+    font-size: 30px;
+    color: brown;
+    font-weight: 500;
+
+}
+
+/* #fotter{} */
+.footer{text-align: center;
+    padding: 2%;
+    background-color: rgb(42, 42, 78);
+    color: rgb(255, 149, 0);
+    font-family: 'Arima', cursive;;
+
+
+}
