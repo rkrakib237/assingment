@@ -9,7 +9,7 @@ body{font-family: 'Poppins', sans-serif;
 }
 .background-image{
     background-image: url(./images/donation13.jpg);
-    filter: blur(2px);
+    filter: blur(1px);
     background-color: black;
    
     background-size: cover;
@@ -20,11 +20,13 @@ body{font-family: 'Poppins', sans-serif;
     width: 100%;
     height: 100%;
     padding-top: 200px ;
-    padding-bottom: 400px;}
+    padding-bottom:800px;}
 
 
     .content{
         text-align: center;
+        
+        margin-top: 20%;
         color: white;
   position:absolute;
   top: 30%;
@@ -46,8 +48,12 @@ body{font-family: 'Poppins', sans-serif;
     font-weight: 600;
  }
 
+ /* section 2{} */
+
  .donate {
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
  }
 
  .donate h2{
@@ -57,10 +63,11 @@ body{font-family: 'Poppins', sans-serif;
  
 .donate-area{
    display: flex;
-    margin-left: 15%;
+    margin-left: 7%;
     font-size: 30px;
     align-items: center;
     justify-content: center;
+    font-weight: 600;
     
     
 }
@@ -75,6 +82,7 @@ body{font-family: 'Poppins', sans-serif;
 #red-taka {margin: 10px;
     background-color:rgb(242, 199, 199);
     border-radius: 2px;
+    color: rgb(226, 104, 104);
 
     padding: 50px;
     border: 2px solid rgb(230, 108, 108);
@@ -87,18 +95,75 @@ body{font-family: 'Poppins', sans-serif;
 }
 
 .amount{ color: rgb(178, 157, 157);
-    text-align: center;
-
-}
+    text-align: center;}
 
 #donate-btn2{background-color: rgb(210, 84, 70);
     color: white;
     text-decoration: none;
     padding: 10px 50px;
     border-top: 100px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: 600;
-
-    margin-top: 5%;
+   
    
 }
+
+/* section3{} */
+
+.donate-text{
+    text-align:center  ;
+    margin: 0 15%;
+    margin-top: 12%;
+    margin-bottom: 7%;
+    
+}
+.donate-text h2{
+
+font-size: 50px;
+}
+.donate-plan{
+    display: flex;
+    gap: 7%;
+
+   
+    margin: 0 10%;
+
+}
+
+
+
+#plan1{
+    background-color: rgba(224, 204, 204, 0.193);
+    text-align: left ;
+
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 2%;
+    padding-right: 3%;
+    border-radius: 8px;
+
+}
+
+#plan2{
+    background-color: rgba(253, 13, 13, 0.056);
+    text-align: left ;
+
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 2%;
+    padding-right: 3%;
+    border-radius: 8px;}
+
+#plan3 {
+    background-color: rgba(63, 42, 165, 0.222);
+    text-align: left ;
+
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 2%;
+    padding-right: 3%;
+    border-radius: 8px;
+    }
+
+    
+
